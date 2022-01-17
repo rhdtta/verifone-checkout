@@ -1,3 +1,14 @@
+input[type=submit] {
+    width: 100%;
+    background-color:#1B3E45;
+    border-color: #1B3E45;
+    border-radius: 0px;
+}
+
+#_card_number_label, #_expiry_label, #_cvv_label{
+    border: none;
+ }
+
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
@@ -1138,3 +1149,5 @@ pre code {
     display: none !important;
   }
 }
+
+
