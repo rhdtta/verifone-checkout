@@ -1,0 +1,57 @@
+<html>
+   <head>
+	   <style>input[type=submit]{width:100%;background-color:#1b3e45;border-color:#1b3e45;border-radius:0}#_card_number_label,#_expiry_label,#_cvv_label{border:0}</style>
+   </head>
+   <body>
+	<div class="m-template">
+    <div class="m-template__body">
+	    <div class="container-fluid text-center" style="line-height: 2.5em; background-color: #020202; color: #FFFFFF !important;; font-size: 12px; font-weight: 600">
+	       Shop with confidence with our 30 day free UK returns policy
+	   </div>
+	    <div class="container-fluid" style="margin-top: 1%">
+		    <div class="col-sm-4 col-sm-offset-4 text-center hidden-xs">
+			    <img src="/verifone-checkout/verifone-en/img/WHITE_STUFF_LOGO_Horizontal_Black.png" width="35%" height="auto">
+		    </div>
+		    <div class="col-xs-4 col-xs-offset-4 text-center visible-xs">
+			    <img src="/verifone-checkout/verifone-en/img/WHITE_STUFF_LOGO_Horizontal_Black.png" width="100%" height="auto">
+		    </div>
+		    
+		    <span class="text-right col-xs-4 col-sm-2 col-sm-offset-2" style="padding-right: 0px;">
+		    	<div>
+		    		<img src="/verifone-checkout/verifone-en/img/lock.png" width="10%" height="auto">
+				<strong class="hidden-xs" style="font-size: 0.85em; vertical-align: -4px;">Secure Checkout</strong>
+				<strong class="hidden-sm hidden-md hidden-lg" style="font-size: 0.85em; vertical-align: -2px;">Secure</strong>
+			</div>
+			
+		    </span>
+		    
+	    </div>
+	    <hr style="margin-top: 1em;">
+	    
+	    <div class="hidden-xs text-center">
+		    <img src="/verifone-checkout/verifone-en/img/UK%20progress%20bar%20desktop.png" width="100%">
+	    </div>
+	    
+	    <div class="visible-xs text-center">
+		    <img src="/verifone-checkout/verifone-en/img/UK%20progress%20bar%20mobile.png" width="90%">
+	    </div>
+	    
+
+	    
+        <div class="m-trx container-fluid col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 text-center" style="margin-top: 3%">
+            <div class="m-trx__amt amount">
+                <p id="amount"></p>
+            </div>
+            <div class="m-trx__meta details">
+                <p id="organisation_name"></p>
+            </div>
+        </div>
+
+        <div class="m-payment__form col-xs-12  col-sm-6 col-sm-offset-3 text-center">
+            <form id="payment_fieldset" method="POST"></form>
+            <div id="jwt"></div>
+        </div>
+    </div>
+</div>
+   </body>
+</html>
