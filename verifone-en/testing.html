@@ -2,11 +2,24 @@
    <head>
 	   
 	<style>
-	.btn-info:hover{
-	  color: #fff;
-	  background-color: #1B3E45;
-	  border-color: #1B3E45;
-	  opacity: 0.6;
+	.btn-info.focus,
+	.btn-info:focus {
+	 color:#fff;
+	 background-color:#1B3E45;
+	 border-color:#1B3E45;
+	}
+	.btn-info:hover {
+	 color:#fff;
+	 background-color:#1B3E45;
+	 border-color:#1B3E45;
+	 opacity: 0.6;
+	}
+	.btn-info.active,
+	.btn-info:active,
+	.open>.dropdown-toggle.btn-info {
+	 color:#fff;
+	 background-color:#1B3E45;
+	 border-color:#1B3E45;
 	}
 	#_alert_container{
 	 background-color: #FFFFFF;
