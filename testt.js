@@ -45,7 +45,7 @@
 		<div class="m-template__body">
 			<div class="container-fluid text-center"
 				style="line-height: 2.5em; background-color: #020202; color:#FFFFFF; font-size: 12px; font-weight: 600">
-				<istext key="payment.checkout.template"/></div>
+				</div>
 			<div class="container-fluid" style="margin-top: 1%">
 				<div class="col-sm-4 col-sm-offset-4 text-center hidden-xs">
 					
@@ -57,9 +57,9 @@
 					style="padding-right: 0px;">
 					<div>
 						
-							<istext key="payment.checkout.template.secure.checkout"/>
+							
 							</strong> <strong class="hidden-sm hidden-md hidden-lg"
-							style="font-size: 0.85em; vertical-align: -2px;"><istext key="payment.checkout.template.secure"/> </strong>
+							style="font-size: 0.85em; vertical-align: -2px;"> </strong>
 					</div>
 				</span>
 			</div>
