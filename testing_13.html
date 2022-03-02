@@ -29,10 +29,17 @@
 	.logo-mobile img{
 		position: absolute; left: 50%; top: 50%; transform: translate(-50%, 0%);
 	}
-	
-	@media only screen and (min-width: 480px) and (max-width: 991px) {
+	.m-template__body hr{
+			margin-top: 1em;
+	}
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
 		.logo-desktop img{
 			width: 80%;
+		}	
+	}
+	@media only screen and (max-width: 767px){
+		.m-template__body hr{
+			margin-top: 2em;
 		}	
 	}
 	
@@ -69,7 +76,7 @@
 					</div>
 				</span>
 			</div>
-			<hr style="margin-top: 1em;">
+			<hr>
 			<div class="hidden-xs text-center">
 				<img
 					src="/verifone-checkout/verifone-en/img/UK%20progress%20bar%20desktop.png"
