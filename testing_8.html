@@ -26,6 +26,15 @@
 	#_card_number_label, #_expiry_label, #_cvv_label{
 		border:0
 	}
+	.logo-mobile img{
+		position: absolute; left: 50%; top: 50%; transform: translate(-50%, 0%);
+	}
+	.logo-desktop img{
+		@media  (min-device-width: 481px) and (max-device-width: 991px) {
+			width: 80%;
+		}
+	}
+	
 
 </style>
 </head>
@@ -36,15 +45,15 @@
 				style="line-height: 2.5em; background-color: #020202; color: #FFFFFF !important; font-size: 12px; font-weight: 600">
 				Shop with confidence with our 30 day free UK returns policy</div>
 			<div class="container-fluid" style="margin-top: 1%">
-				<div class="col-sm-4 col-sm-offset-4 text-center hidden-xs">
+				<div class="col-sm-4 col-sm-offset-4 text-center hidden-xs logo-desktop">
 					<img
 						src="/verifone-checkout/verifone-en/img/WHITE_STUFF_LOGO_Horizontal_Black.png"
 						width="35%" height="auto">
 				</div>
-				<div class="col-xs-4 col-xs-offset-4 text-center visible-xs">
+				<div class="col-xs-4 col-xs-offset-4 text-center visible-xs logo-mobile">
 					<img
 						src="/verifone-checkout/verifone-en/img/WHITE_STUFF_LOGO_Horizontal_Black.png"
-						width="100%" height="auto">
+						width="170%" height="auto">
 				</div>
 				<span class="text-right col-xs-4 col-sm-2 col-sm-offset-2"
 					style="padding-right: 0px;">
